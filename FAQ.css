@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+}
+
+@font-face{
+    font-family: 'Great Vibes';
+    src: url(GreatVibes-Regular.ttf);
+}
+
+
+/* Naavigation Bar Start */
+
+
+.nav{
+    padding: 4px 16px;
+}
+
+.navbar{
+    background-color: #c81e1c;
+    padding: 1px 16px;
+    margin: 10px 6px;
+}
+
+.navbar-brand{
+    padding: 0;
+    border: 2px solid white;
+}
+
+.logo{
+    width: 80px;
+    border-radius: 40px;
+    
+}
+
+.collapse{
+    background-color: #c81e1c;
+}
+
+.nav-link{
+    font-weight: 300;
+}
+
+.nav-link:hover{
+    color: white !important;
+    font-weight: 600;
+}
+
+/* Navigation Bar Ends */
+
+
+.f-heading{
+    margin: 50px 0px  0px 0px;
+}
+
+.f-head{
+    font-family: 'Great Vibes';
+    font-weight: 600;
+    font-size: 100px;
+    text-align: center;
+    color: #c81e1c;
+    margin: 22px 0px ;
+    position: relative;
+}
+.f-head:before{
+    content: "";
+    display: block;
+    width: 71%;
+    height: 0.2px;
+    background: #ffffff;
+    position: absolute;
+    left: 22%;
+    top: 81%;
+
+}
+
+.f-span{
+    background: #000000;
+}
+
+.form-div{
+    background-color: #000000;
+    width: 480px;
+    padding: 55px 0px;
+    margin-top: 50px;
+}
+
+.form-group{
+    width: 400px;
+    margin: 0px auto;
+    padding: 8px;  
+}
+
+.form-group label{
+    color: white;
+}
+
+.form-group small{
+    color: white !important;
+}
+
+.form-btn button{
+    color: white;
+    background-color: #c81e1c;
+}
+
+
+/* Login Ends */
+
+
+
+
+/* Footer Starts */
+
+.footer{
+    background-color: #c81e1c;
+    margin-top: 150px;
+}
+
+.f-inline li{
+    display: inline-block;
+}
+
+.s-f{
+    color: #c81e1c;
+    background-color: #000000;
+    border: none;
+    border-radius: 60px;
+    padding: 12px 14px;
+}  
+
+.s-i{
+    color: #c81e1c;
+    background-color: #000000;
+    border: none;
+    border-radius: 60px;
+    padding: 12px;
+}
+
+.f-ul {
+    color: white;
+    margin: 0px 10px;
+    list-style: none;
+}
+
+.f-ul li{
+    margin: 25px 0px;
+}
+
+.f-ul li a{
+    padding: 10px;
+}
+
+.f-center{
+    text-align: center;
+}
+
+.f-txt{
+    padding: 5px 0px 3px 0px; 
+}
+
+.f-txt p, a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.line{
+    color: #ffffff;
+}
+
+/* Footer Ends */
+
+@media all and (max-width: 576px){
+
+    .f-head{
+        font-size: 50px;
+    }
+
+    .form-div{
+        width: 300px;
+    }
+    
+    .form-group{
+        width: 320px;
+    }
+}
